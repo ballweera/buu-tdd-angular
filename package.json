@@ -11,7 +11,7 @@
   "dependencies": {
     "browser-sync": "^2.7.6",
     "cors": "^2.7.1",
-    "express": "^4.12.4",
+    "express": "^4.13.4",
     "gulp": "^3.8.11",
     "gulp-karma": "0.0.4",
     "gulp-live-server": "0.0.17",
