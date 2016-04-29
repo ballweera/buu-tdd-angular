@@ -11,11 +11,11 @@ gulp.task('server', function () {
 
 gulp.task('serve',['server'], function () {
 	browserSync.init({
-		notify:false,
-		port:8080,
-		server:{
-			baseDir:["app"],
-			routes:{
+		notify: false,
+		port: 8080,
+		server: {
+			baseDir: ["app"],
+			routes: {
 				'/node_modules':'node_modules'
 			}
 		}
